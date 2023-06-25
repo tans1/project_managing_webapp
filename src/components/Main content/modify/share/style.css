@@ -1,0 +1,52 @@
+.share--container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 220px;
+    height: 40px;
+}
+
+
+.share{
+    color: #787486;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 500;
+    text-transform: capitalize;
+    width: 97px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #787486;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.share:hover{
+    cursor: pointer;
+}
+
+.pauseIcon{
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #5030E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pauseIcon img{
+    width: 20px;
+    height: 20px;
+    transform: rotate(-90deg);
+    flex-shrink: 0;
+}
+
+.pauseIcon img:hover,
+.menuIcon:hover {
+    cursor: pointer;
+}

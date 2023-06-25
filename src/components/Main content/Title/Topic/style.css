@@ -1,0 +1,23 @@
+.topic--container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 364px;
+    height: 56px;
+}
+
+.topic {
+    color: #0D062D;
+    font-size: 46px;
+    font-family: Inter;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.editIcon, 
+.linkIcon {
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    color: #5030E5;
+}

@@ -1,0 +1,27 @@
+.filter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.dropdown {
+    color: #787486;
+    margin-right: 15px;
+    width: 122px;
+    height: 40px;
+    flex-shrink: 0;
+
+}
+
+.dropdown .btn{
+    background-color: transparent;
+    border: 1px solid #787486;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}

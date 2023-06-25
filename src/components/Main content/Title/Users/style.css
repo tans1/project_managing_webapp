@@ -1,0 +1,39 @@
+.users--container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.invite{
+    margin-right: 15px;
+    color: #5030E5;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.addIcon:hover {
+    cursor: pointer;
+}
+.users--image img, .disk{
+    width: 38px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 38px;
+    border: 1px solid #FFF;
+
+    margin-left: -10px;
+}
+
+.users--image span{ 
+    color: #D25B68;
+    font-size: 15px;
+    font-family: Inter;
+    font-weight: 600;
+    text-transform: capitalize;
+    
+    position: relative;
+    left: -28px;
+}
